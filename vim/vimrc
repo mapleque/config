@@ -54,5 +54,6 @@ let &colorcolumn="120" "设置代码每行最大宽度标尺
 
 "特定类型文件配置
 "autocmd BufRead,BufNewFile *.js source ~/.vim/html.vim
+autocmd BufRead,BufNewFile *.js,*.html,*.css set tabstop=2 softtabstop=2 shiftwidth=2
 
 autocmd vimenter * NERDTree
